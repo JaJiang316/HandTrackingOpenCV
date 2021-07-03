@@ -49,7 +49,7 @@ def main():
     while True:
         success, img = cap.read()
         img = detector.findHands(img)
-        landMakrList = detector.findPosition(img)
+        landMarkList = detector.findPosition(img)
         # if len(lmList) != 0:
         #     print()
         cTime = time.time()
